@@ -5,7 +5,7 @@ Este módulo contém funções/keywords para geração de Strings SQL para manip
 
 def sql_select_users(id=None, nome=None, email=None, idade=None):
     """
-    Gera uma consulta SQL SELECT para recuperar usuários da tabela 'users' com base nos critérios fornecidos.
+    Gera um SQL SELECT para recuperar usuários da tabela 'users' com base nos critérios fornecidos.
 
     Argumentos:
 
@@ -53,7 +53,7 @@ def sql_select_users(id=None, nome=None, email=None, idade=None):
 
 def sql_insert_user(nome, email, idade):
     """
-    Gera uma consulta SQL INSERT para adicionar um novo usuário à tabela 'users'.
+    Gera um SQL INSERT para adicionar um novo usuário à tabela 'users'.
 
     Argumentos:
 
@@ -76,7 +76,7 @@ def sql_insert_user(nome, email, idade):
 
 def sql_update_user(id, nome=None, email=None, idade=None):
     """
-    Gera uma consulta SQL UPDATE para modificar os dados de um usuário existente na tabela 'users'.
+    Gera um SQL UPDATE para modificar os dados de um usuário existente na tabela 'users'.
 
     Argumentos:
         id (int): O ID do usuário a ser atualizado.
@@ -115,7 +115,7 @@ def sql_update_user(id, nome=None, email=None, idade=None):
 
 def sql_delete_users(id=None, nome=None, email=None, idade=None):
     """
-    Gera uma consulta SQL DELETE para remover usuários da tabela 'users' com base nos critérios fornecidos.
+    Gera um SQL DELETE para remover usuários da tabela 'users' com base nos critérios fornecidos.
 
     Argumentos:
 
